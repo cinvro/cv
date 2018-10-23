@@ -1,187 +1,272 @@
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
-\usepackage{fontspec} % For loading fonts
-\usepackage{enumitem}
-\usepackage{hyperref}
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
-\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
-\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
-\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
-\usepackage{hyperref} % Required for adding links	and customizing them
-\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
-\usepackage{titlesec} % Used to customize the \section command
-\titleformat{\section}{\LARGE\scshape\raggedright}{}{0em}{} 
-\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
-
-\begin{document}
-\pagestyle{empty} % Removes page numbering
-%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
-
-\par{\Huge Xinyue \textsc{Liu}}\par % Your name
-\vspace{1.5em}
-\par{ \large \emph{Email}: xliu4@wpi.edu}
-\par{ \large \emph{Website}: \url{http://cinv.ro}}
-\par{ \large \emph{Voice}: +1 (508)-873-4348}
-\vspace{0.5em}
-
-\section{Education}
-\begin{tabular}{rl}	
-\textsc{2018 (expected)} & Ph.D. in Computer Science, \textbf{Worcester Polytechnic Institute}\\
-\textsc{2013} & M.Sc. in Information Technology, \textbf{Hong Kong University of Sci. \& Tech.}\\
-\textsc{2012}& B.Eng. in Software Engineering, \textbf{University of Electronic Sci. \& Tech.}\\
-%\textsc{Spring} 2011 & Exchanged at University of California, Santa Barbara, USA\\
-%\textsc{Summer} 2011 & Exchanged at University of California, Los Angeles, USA\\
-\end{tabular}
-
-\section{Employment}
-\begin{tabular}{rl}
-\textsc{Summer 2018} & Research Intern,    \textbf{IBM T. J. Watson Research Center}, Yorktown Heights, NY \\
-\textsc{2014 - 2018} & Research Assistant, \textbf{Worcester Polytechnic Institute}, Worcester, MA  \\
-\textsc{2013 - 2014} & Research Assistant, \textbf{University of Science \& Technology}, Hong Kong  \\
-\end{tabular}
-
-
-\section{Research Interests}
-\begin{itemize}
-\item[$\circ$] Deep learning on graphs and beyond:
-\ref{treegan}
-\ref{DROM}
-\vspace{-0.25em}
-\item[$\circ$] Recommender systems: 
-\ref{kdd18}
-\ref{icdm17a}
-\ref{icdm17b}
-\ref{sdm16}
-\vspace{-0.25em}
-\item[$\circ$] Synergistic graph mining: 
-\ref{kdd18}
-\ref{ijcnn17}
-\ref{sdm17a}
-\ref{sdm17b} 
-\ref{cikm16} 
-\ref{COM} 
-\vspace{-0.25em}
-\item[$\circ$] Biological signals analysis \& mining: 
-\ref{ijcnn17}
-\ref{sdm17a}
-\ref{CGL}
-\ref{MAGL}
-\end{itemize}
-
-\section{Publication}
-\begin{enumerate}[label=(C\arabic*).]
-	\item \label{kdd18} \textbf{\underline{Xinyue Liu}}, Xiangnan Kong, Philip S. Yu. 
-	\href{http://cinv.ro/files/KDD18.pdf}
-	{``Active Opinion Maximization on Social Networks"}, 
-	\emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '18)}, August 2018.
-	                    
-	\item \label{icdm17a} \textbf{\underline{Xinyue Liu}}, Yuanfang Song, Charu Aggarwal, Yao Zhang, Xiangnan Kong. 
-	\href{http://cinv.ro/files/ICDM17.pdf}
-	{``Item Recommendation with Life Cycles"}, 
-    \emph{IEEE International Conference on Data Mining (ICDM '17)}, November 2017.                 
-	
-	\item \label{icdm17b} Saket Sathe, Charu Aggarwal, Xiangnan Kong and \textbf{\underline{Xinyue Liu}}. 
-	 ``Kernel-Based Feature Extraction For Collaborative Filtering", 
-	 \emph{IEEE International Conference on Data Mining (ICDM '17)}, November 2017.
-	                      
-	\item \label{ijcnn17} \textbf{\underline{Xinyue Liu}}, Xiangnan Kong and Philip S. Yu. 
-	 \href{http://cinv.ro/files/IJCNN17.pdf}
-	 {``Collective Discovery of Brain Networks with Unknown Groups"}, 
-	 \emph{International Joint Conference On Neural Networks (IJCNN '17)}, May 2017.
-	                      	
-	\item \label{sdm17a} \textbf{\underline{Xinyue Liu}}, Xiangnan Kong and Ann B. Ragin. 
-	 \href{http://cinv.ro/files/SDM17.pdf}
-	 {``Unified and Contrasting Graphical Lasso for Brain Network Discovery"}, 
-	 \emph{SIAM International Conference on Data Mining (SDM '17)}, April 2017.
-	                     
-	\item \label{sdm17b} Yao Zhang, Yun Xiong, \textbf{\underline{Xinyue Liu}}, Xiangnan Kong, Yangyong Zhu. 
-	 \href{http://cinv.ro/files/SDM17_Yao.pdf}
-	 {``Meta-Path Graphical Lasso for Learning Heterogeneous Connectivities"}, 
-	 \emph{SIAM International Conference on Data Mining (SDM '17)}, April 2017.
-	                     
-	\item  \label{cikm16} 
-    \textbf{\underline{Xinyue Liu}}, Xiangnan Kong and Yanhua Li. 
-	 \href{http://cinv.ro/files/CIKM16.pdf}
-	 {``Collective Traffic Prediction with Partially Observed Traffic History using Location-Based Social Media"}, 
-	 \emph{ACM International Conference on Information and Knowledge Management (CIKM '16)}, November 2016.
-	                     
-	\item  \label{sdm16}
-    \textbf{\underline{Xinyue Liu}}, Charu Aggarwal, Yu-Feng Li, Xiangnan Kong, Xinyuan Sun and Saket Sathe. 
-	 \href{http://cinv.ro/files/SDM16.pdf}
-	 {``Kernelized Matrix Factorization for Collaborative Filtering"}, 
-	 \emph{SIAM International Conference on Data Mining (SDM '16)}, April 2016.
-\end{enumerate}
-
-\section{Manuscripts}
-\begin{enumerate}[label=(M\arabic*).]
-    {\item \label{treegan} 
-    \textbf{\underline{Xinyue Liu}}, Xiangnan Kong, Lei Liu, Kuorong Chiang. 
-    ``Syntax-aware Sequence Generation with Generative Adversarial Networks''. 
-    (in submission to ICDM '18)}
-
-    {\item \label{COM} 
-    Jianjun Luo, \textbf{\underline{Xinyue Liu}}, Xiangnan Kong. 
-    ``Competitive Opinion Maximization in Social Networks". 
-    (in submission to CIKM '18)}
-
-    {\item \label{DROM}
-    Xin Dai, Xiangnan Kong, \textbf{\underline{Xinyue Liu}}, Constance Moore. 
-    ``Dual-Attention Recurrent Networks for Affine Registration of Neuroimaging Data''. 
-    (in submission to ICDM '18)}
-
-    {\item \label{CGL}
-    Hang Yin, Xiangnan Kong, \textbf{\underline{Xinyue Liu}}. 
-    ``Brain Network Discovery via a Combination Model with Graphical Lasso and Orthogonal Non-negative Matrix Factorization''. 
-    (in submission to ICDM '18)}
-
-    {\item \label{MAGL}
-    Yao Zhang, Yun Xiang, Xiangnan Kong, \textbf{\underline{Xinyue Liu}}, Yangyong Zhu. 
-    ``Multi-task Attributed Graphical Lasso''. 
-    (in submission to ICDM '18)}
-
-    %-----------ongoing projects-------------%
-    %{\item \textbf{\underline{Xinyue Liu}}, Charu Aggarwal, Saket Sathe, Xiangnan Kong. 
-    %        ``Autoencoder for Temporal Collaborative Filtering'' 
-    %        (target at WSDM '19)}
-    %{\item \textbf{\underline{Xinyue Liu}}, Yao Zhang, Xiangnan Kong. 
-    %        ``Budgeted Multi-Round Opinion Maximization'' 
-    %        (target at AAAI '19)}
-    %{\item \textbf{\underline{Xinyue Liu}}, Xiangnan Kong, Lei Liu, Kuorong Chiang. 
-    %       ``Context Sensitive Sequence GAN'' 
-    %        (target at AAAI '19)}
-    %{\item \textbf{\uderline{Xinyue Liu}}, Yao Zhang, Xiangnan Kong.
-    %.      ``Pointer Network for Opinion Maximization''
-    %        (target at AAAI '19)}
-    %----------------------------------------%
-\end{enumerate}
-
-\section{Teaching}
-\begin{tabular}{rl}	
-\textsc{Feb.- May., 2015} & \textbf{CS2333: Algorithms}  \\
-& Graduated Teaching Assistant, Worcester Polytechnic Institute, USA\\
-\end{tabular}
-
-\section{Awards}
-\begin{tabular}{rl}
-\textsc{Jun.} 2018 & ACM KDD Travel Award \normalsize\\
-\textsc{Oct.} 2017 & WPI Graduate Student Travel Award \normalsize\\
-\textsc{Oct.} 2017 & IEEE ICDM Travel Award  \normalsize \\
-\textsc{Mar.} 2017 & IEEE/ACM IJCNN Travel Award \normalsize \\
-\textsc{Mar.} 2017 & WPI Graduate Student Travel Award \normalsize\\
-\textsc{Oct.} 2016 & WPI Graduate Student Travel Award \normalsize\\
-\textsc{Aug.} 2016 & ACM CIKM Travel Award \normalsize\\
-\textsc{May.} 2016 & SIAM SDM Travel Award \normalsize\\
-\end{tabular}
-
-\section{Service}
-\begin{tabular}{rl}	
-\textbf{Journal Reviewer} & TKDD  \\
-\textbf{External Reviewer} & TKDE, TIST, TPAMI, KDD ('15 - '18), ICML ('18), ICDM ('15,'17), \\
-    & SDM ('17, '18), CIKM ('15 - '17), NIPS ('16 - '18), IJCAI ('15, '17), AAAI ('17),\\
-    & AISTAT ('17, '18), ICDE ('17), ASONAM ('17), PAKDD ('18) \\
-\textbf{Conference Volunteer} & SDM '16, ICDM' 17, KDD '18
-\end{tabular}
-
-\end{document}
+    \usepackage{tgpagella}
+    \usepackage[T1]{fontenc}
+    \usepackage{enumitem}
+    \usepackage{hyperref}
+    \usepackage{array}
+    \usepackage{fontawesome}
+    \usepackage{parskip, url}
+    \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+    \usepackage[big]{layaureo}
+    \usepackage{hyperref} % Required for adding links	and customizing them
+    \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+    \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+    \usepackage{titlesec} % Used to customize the \section command
+    \titleformat{\section}{\Large\bfseries\raggedright}{}{0em}{} 
+    \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+    \newcommand{\seticon}[1]{{\csname #1\endcsname}}
+    
+    \begin{document}
+    \pagestyle{empty} % Removes page numbering
+    {\centering
+    \par{\Huge Xinyue {Liu}}\par % Your name
+    \vspace{0.5em}
+    \centering{
+         \seticon{faPhone} +1-508-873-4348 $|$ 
+         \seticon{faEnvelope} \href{mailto:xliu4@wpi.edu}{xliu4@wpi.edu} $|$ 
+         \seticon{faChain}     \url{http://cinv.ro}
+         \par}}
+    \vspace{0.5em}
+    
+    \section{Objective}
+    I am looking for a research scientist or applied scientist position in AI-related fields.
+    
+    \section{Education}
+    \begin{tabular}{ll}	
+    \textbf{2018} & \textbf{Worcester Polytechnic Institute}\\ 
+    \footnotesize{(expected)}& \emph{Ph.D. in Computer Science}   \\
+    \textbf{2013} & \textbf{Hong Kong University of Science \&. Technology} \\
+    &\emph{M.Sc. in Information Technology}  \\ 
+     \textbf{2012}& \textbf{University of Electronic Science \&. Technology of China}   \\
+    &\emph{B.Eng. in Software Engineering}  
+    %\textsc{Spring} 2011 & Exchanged at University of California, Santa Barbara, USA\\
+    %\textsc{Summer} 2011 & Exchanged at University of California, Los Angeles, USA\\
+    \end{tabular}
+    
+    \section{Employment}
+    \begin{tabular}{p{10cm}r}
+    \textbf{IBM T. J. Watson Research Center} & \textbf{Yorktown Heights, NY}\\ 
+    \emph{Research Intern} & {Summer 2018} \\
+    \textbf{Worcester Polytechnic Institute} & \textbf{Worcester, MA}\\
+    \emph{Research Assistant} & \textsc{2014 - 2018} \\ 
+    \textbf{Hong Kong University of Science \&. Technology} & \textbf{Hong Kong}  \\
+    \emph{Research Assistant} & \textsc{2013 - 2014} 
+    \end{tabular}
+    
+    
+    \section{Research Interests}
+    \begin{itemize}
+    \item[$\circ$] Deep Learning:
+    \ref{treegan}
+    \ref{tree2text}
+    \ref{net2text}
+    \ref{mmr}
+    \ref{rAE}
+    \ref{DROM}
+    \vspace{-0.25em}
+    \item[$\circ$] Recommender Systems:
+    \ref{kdd18}
+    \ref{icdm17a}
+    \ref{icdm17b}
+    \ref{sdm16}
+    \ref{rAE}
+    \vspace{-0.25em}
+    \item[$\circ$] Graph Mining: 
+    \ref{treegan}
+    \ref{kdd18}
+    \ref{ijcnn17}
+    \ref{sdm17a}
+    \ref{sdm17b} 
+    \ref{cikm16} 
+    \ref{COM}
+    \ref{MAGL} 
+    \vspace{-0.25em}
+    \item[$\circ$] Biological Signals Analysis \& Mining:
+    \ref{CGL}
+    \ref{ijcnn17}
+    \ref{sdm17a}
+    \ref{MGGL} 
+    \ref{DROM}
+    \ref{MAGL}
+    \end{itemize}
+    
+    \section{Publication}
+    \begin{enumerate}[label=(C\arabic*).]
+        {\item \label{treegan} 
+        \textbf{{Xinyue Liu}}, Xiangnan Kong, Lei Liu, Kuorong Chiang. 
+        \href{https://arxiv.org/abs/1808.07582}{
+        ``Syntax-aware Sequence Generation with Generative Adversarial Networks''},
+        \emph{IEEE International Conference on Data Mining (ICDM '18)}, November 2018.
+        }
+        
+        {\item \label{CGL}
+        Hang Yin, \textbf{{Xinyue Liu}}, Xiangnan Kong. 
+        ``Coherent Graphical Lasso for Brain Network Discovery '', 
+        \emph{IEEE International Conference on Data Mining (ICDM '18)}, November 2018.
+        }
+        
+        \item \label{kdd18} 
+        \textbf{{Xinyue Liu}}, Xiangnan Kong, Philip S. Yu. 
+        \href{http://cinv.ro/files/KDD18.pdf}
+        {``Active Opinion Maximization on Social Networks"}, 
+        \emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '18)}, August 2018.
+                            
+        \item \label{icdm17a} 
+        \textbf{{Xinyue Liu}}, Yuanfang Song, Charu Aggarwal, Yao Zhang, Xiangnan Kong. 
+        \href{http://cinv.ro/files/ICDM17.pdf}
+        {``Item Recommendation with Life Cycles"}, 
+        \emph{IEEE International Conference on Data Mining (ICDM '17)}, November 2017.                 
+        
+        \item \label{icdm17b} 
+        Saket Sathe, Charu Aggarwal, Xiangnan Kong and \textbf{{Xinyue Liu}}. 
+         ``Kernel-Based Feature Extraction For Collaborative Filtering", 
+         \emph{IEEE International Conference on Data Mining (ICDM '17)}, November 2017.
+                              
+        \item \label{ijcnn17} 
+        \textbf{{Xinyue Liu}}, Xiangnan Kong and Philip S. Yu. 
+         \href{http://cinv.ro/files/IJCNN17.pdf}
+         {``Collective Discovery of Brain Networks with Unknown Groups"}, 
+         \emph{International Joint Conference On Neural Networks (IJCNN '17)}, May 2017.
+                                  
+        \item \label{sdm17a} 
+        \textbf{{Xinyue Liu}}, Xiangnan Kong and Ann B. Ragin. 
+         \href{http://cinv.ro/files/SDM17.pdf}
+         {``Unified and Contrasting Graphical Lasso for Brain Network Discovery"}, 
+         \emph{SIAM International Conference on Data Mining (SDM '17)}, April 2017.
+                             
+        \item \label{sdm17b} 
+        Yao Zhang, Yun Xiong, \textbf{{Xinyue Liu}}, Xiangnan Kong, Yangyong Zhu. 
+         \href{http://cinv.ro/files/SDM17_Yao.pdf}
+         {``Meta-Path Graphical Lasso for Learning Heterogeneous Connectivities"}, 
+         \emph{SIAM International Conference on Data Mining (SDM '17)}, April 2017.
+                             
+        \item  \label{cikm16} 
+        \textbf{{Xinyue Liu}}, Xiangnan Kong and Yanhua Li. 
+         \href{http://cinv.ro/files/CIKM16.pdf}
+         {``Collective Traffic Prediction with Partially Observed Traffic History using Location-Based Social Media"}, 
+         \emph{ACM International Conference on Information and Knowledge Management (CIKM '16)}, November 2016.
+                             
+        \item  \label{sdm16}
+        \textbf{{Xinyue Liu}}, Charu Aggarwal, Yu-Feng Li, Xiangnan Kong, Xinyuan Sun and Saket Sathe. 
+         \href{http://cinv.ro/files/SDM16.pdf}
+         {``Kernelized Matrix Factorization for Collaborative Filtering"}, 
+         \emph{SIAM International Conference on Data Mining (SDM '16)}, April 2016.
+    \end{enumerate}
+    
+    \section{Manuscripts}
+    \begin{enumerate}[label=(M\arabic*)., resume]
+        {\item \label{MGGL}
+        Hang Yin, \textbf{{Xinyue Liu}}, Xiangnan Kong. 
+        ``Mixture Gaussian Graphical Lasso for Brain Network Discovery '', 
+        (submitted to SDM' 19)
+        }
+    
+        {\item 
+         \label{tree2text}
+         Shaofeng Xu, Yun Xiong, \textbf{{Xinyue Liu}}, Xiangnan Kong, Yangyong Zhu.
+         ``Translating Source Code to Text by Exploiting
+         Abstract Syntax Tree''. (submitted to SDM '19)
+         }
+    
+        {\item 
+         \label{net2text}
+         Shaofeng Xu, Yun Xiong, \textbf{{Xinyue Liu}}, Xiangnan Kong, Yangyong Zhu.
+         ``Translating Bipartite Graph Links to Text''. (submitted to SDM '19)
+         }
+    
+         {\item \label{mmr}
+         Thanh Tran, \textbf{{Xinyue Liu}}, Kyumin Lee, Xiangnan Kong. 
+         ``Deep Metric-based Memory Recommender''. 
+         (submitted to AAAI '19)
+         }
+    
+         {\item \label{rAE}
+         \textbf{{Xinyue Liu}}, Charu Aggarwal, Saket Sathe, Udayan Khurana, Horst Samulowitz, Xiangnan Kong. 
+         ``Deep Recurrent Autoencoder for Temporal Collaborative Filtering''.
+         (submitted to WSDM '19)
+         }
+         
+        {\item \label{COM} 
+        Jianjun Luo, \textbf{{Xinyue Liu}}, Xiangnan Kong. 
+        ``Competitive Opinion Maximization in Social Networks". 
+        (submitted to WSDM '19)
+        }
+    
+        {\item \label{DROM}
+        Xin Dai, Xiangnan Kong, \textbf{{Xinyue Liu}}, Constance Moore. 
+        ``Dual-Attention Recurrent Networks for Affine Registration of Neuroimaging Data''. 
+        (submitted to AAAI '19)
+        }
+    
+        {\item \label{MAGL}
+        Yao Zhang, Yun Xiang, Xiangnan Kong, \textbf{{Xinyue Liu}}, Yangyong Zhu. 
+        ``Multi-task Attributed Graphical Lasso''.
+        (submitted to AAAI '19) 
+        }
+    \end{enumerate}
+    
+    \iffalse
+    \section{Work-in-Progress}
+    \begin{enumerate}[label=(P\arabic*)., resume]
+        %{\item 
+        % \label{attention}
+        % \textbf{{Xinyue Liu}}, Xiangnan Kong.
+        %  ``Recurrent Attention Recommender''. (Planed)
+        % }
+    
+        {\item \label{aod}
+         Mingrui Wei, \textbf{{Xinyue Liu}}, Xiangnan Kong, Elke A. Rundensteiner.
+         ``Active Outlier Detection''. %(submitted to ICLR '19)
+         }
+    
+        {\item \label{csg}
+         \textbf{{Xinyue Liu}}, Xiangnan Kong, Lei Liu, Kuorong Chiang.
+         ``Context-Sensitive Sequence GAN''. %(submitted to ICLR '19)
+         }
+    
+        {\item 
+         \label{ctom}
+         Jianjun Luo, \textbf{{Xinyue Liu}}, Xiangnan Kong.
+         ``Continuous Opinion Maximization''.
+         }
+    
+        {\item 
+         \label{pn}
+         Yao Zhang, \textbf{{Xinyue Liu}}, Yun Xiong, Xiangnan Kong, Yangyong Zhu.
+          ``Pointer Network for Opinion Maximization''.
+         }
+    \end{enumerate}
+    \fi
+    
+    
+    
+    \section{Teaching}
+    \begin{tabular}{rl}	
+    \textsc{Feb.- May., 2015} & \textbf{CS2333: Algorithms}  \\
+    & Graduated Teaching Assistant, Worcester Polytechnic Institute, USA\\
+    \end{tabular}
+    
+    \section{Awards}
+    \begin{tabular}{rl}
+    \textsc{Jun.} 2018 & ACM KDD Travel Award \normalsize\\
+    \textsc{Oct.} 2017 & WPI Graduate Student Travel Award \normalsize\\
+    \textsc{Oct.} 2017 & IEEE ICDM Travel Award  \normalsize \\
+    \textsc{Mar.} 2017 & IEEE/ACM IJCNN Travel Award \normalsize \\
+    \textsc{Mar.} 2017 & WPI Graduate Student Travel Award \normalsize\\
+    \textsc{Oct.} 2016 & WPI Graduate Student Travel Award \normalsize\\
+    \textsc{Aug.} 2016 & ACM CIKM Travel Award \normalsize\\
+    \textsc{May.} 2016 & SIAM SDM Travel Award \normalsize\\
+    \end{tabular}
+    
+    \section{Service}
+    \begin{tabular}{rl}	
+    \textbf{Journal Reviewer} & TKDD  \\
+    \textbf{External Reviewer} & TKDE, TIST, TPAMI, KDD ('15 - '18), ICML ('18), ICDM ('15,'17), \\
+        & SDM ('17, '18), CIKM ('15 - '17), NIPS ('16 - '18), IJCAI ('15, '17),\\
+        & AAAI ('17), AISTAT ('17, '18), ICDE ('17), ASONAM ('17),\\
+        & BigData('18), PAKDD ('18) \\
+    \textbf{Conference Volunteer} & SDM '16, ICDM' 17, KDD '18
+    \end{tabular}
+    
+    \end{document}
+    
